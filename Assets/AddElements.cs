@@ -11,6 +11,17 @@ public class AddElements : MonoBehaviour {
 	void Start () {
 		
 	}
+
+		public void makeObject ()
+	{
+		//Debug.Log("Make object called");
+		Vector3 startPos;
+		Quaternion startRotation;
+
+		startPos = startGo.transform.position;
+		startRotation = startGo.transform.rotation; 
+		Instantiate(copyGo,startPos,startRotation);
+	}
 	
 	// Update is called once per frame
 	void Update () {
