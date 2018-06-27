@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 607775580}
   - component: {fileID: 607775579}
   m_Layer: 0
-  m_Name: scripts
+  m_Name: Cloner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

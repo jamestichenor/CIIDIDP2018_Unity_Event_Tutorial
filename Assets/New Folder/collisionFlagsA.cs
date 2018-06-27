@@ -25,7 +25,7 @@ public class collisionFlagsA : MonoBehaviour {
 	//cloneScript.GetComponent<AddElements>().makeObject();
 	if (collision.gameObject.name == "floor")
 	{
-		cloneScript.GetComponent<AddElements>().makeObject();
+		cloneScript.GetComponent<AddElementsA>().makeObject();
 	}
 
 	}
