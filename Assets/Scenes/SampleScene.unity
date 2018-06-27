@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -503,6 +503,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1537048491827626, guid: c6f46dcefc1eb4ae982645e063e46e44, type: 2}
+      propertyPath: m_Name
+      value: Egg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6f46dcefc1eb4ae982645e063e46e44, type: 2}
   m_IsPrefabParent: 0
@@ -518,7 +522,7 @@ GameObject:
   - component: {fileID: 1979671756}
   - component: {fileID: 1979671755}
   m_Layer: 0
-  m_Name: angle
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

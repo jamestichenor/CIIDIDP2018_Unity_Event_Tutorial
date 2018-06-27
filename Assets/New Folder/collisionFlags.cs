@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-public class CcollisionFlags : MonoBehaviour {
+public class collisionFlags : MonoBehaviour {
 
 	public GameObject cloneScript;
 	//Scriptab
