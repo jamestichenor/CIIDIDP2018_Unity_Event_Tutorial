@@ -61,8 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\colliionFlags.cs" />
     <Compile Include="Assets\New Folder\AddElements.cs" />
-    <Compile Include="Assets\New Folder\collisionFlags.cs" />
+    <Compile Include="Assets\New Folder\collisionFlagsA.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/jamestichenor/Documents/James/Sensory/CIIDIDP2018_Unity_Event_Tutorial/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
